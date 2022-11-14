@@ -41,6 +41,17 @@ const NODE_SOAP_PARSED_TYPES: { [type: string]: string } = {
     boolean: "boolean",
     dateTime: "Date",
     date: "Date",
+    "xs:int": "number",
+    "xs:integer": "number",
+    "xs:short": "number",
+    "xs:long": "number",
+    "xs:double": "number",
+    "xs:float": "number",
+    "xs:decimal": "number",
+    "xs:bool": "boolean",
+    "xs:boolean": "boolean",
+    "xs:dateTime": "Date",
+    "xs:date": "Date",
 };
 
 /**
